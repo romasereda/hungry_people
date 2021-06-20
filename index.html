@@ -16,22 +16,24 @@
 </head>
 <body>
 
-  <header class="header header--index">
+  <header class="header header--index" id="home">
 
-    <nav class="navigation container">
-      <ul class="navigation__list">
-        <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
-        <li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
-        <li class="navigation__item"><a href="#" class="navigation__link">Team</a></li>
-        <li class="navigation__item"><a href="#" class="navigation__link">Booking</a></li>
-      </ul>
-      <ul class="navigation__list">
-        <li class="navigation__item"><a href="#" class="navigation__link">Menu</a></li>
-        <li class="navigation__item"><a href="#" class="navigation__link">Galerie</a></li>
-        <li class="navigation__item"><a href="#" class="navigation__link">Events</a></li>
-        <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="menu">
+      <nav class="navigation container">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#home" class="navigation__link">Home</a></li>
+          <li class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
+          <li class="navigation__item"><a href="#team" class="navigation__link">Team</a></li>
+          <li class="navigation__item"><a href="#booking" class="navigation__link">Booking</a></li>
+        </ul>
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#menu" class="navigation__link">Menu</a></li>
+          <li class="navigation__item"><a href="#events" class="navigation__link">Events</a></li>
+          <li class="navigation__item"><a href="#galerie" class="navigation__link">Galerie</a></li>
+          <li class="navigation__item"><a href="#contact" class="navigation__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
 
     <img src="images/dest/logo.svg" alt="логитип ресторана 'Hungry People'" class="header__logo">
 
@@ -85,7 +87,7 @@
 
   <main>
 
-    <section class="section container">
+    <section class="section container" id="about">
 
       <div class="section__block">
         <h2 class="title">About us</h2>
@@ -102,7 +104,7 @@
     </section>
 
     <div class="wrapper-bg wrapper-bg--chef">
-      <section class="section section--text-white container">
+      <section class="section section--text-white container" id="team">
 
         <div class="bg-line">
           <div class="bg-line__item"></div>
@@ -127,7 +129,7 @@
       </section>
     </div>
 
-    <section class="section container">
+    <section class="section container" id="booking">
 
       <div class="section__block">
         <h2 class="title">Book a table</h2>
@@ -199,6 +201,7 @@
         </div>
 
       </section>
+
       <section class="section section--text-white container">
 
         <div class="bg-line">
@@ -231,7 +234,7 @@
 
     </div>
 
-    <section class="section section--1fr container">
+    <section class="section section--1fr container" id=menu>
 
       <h2 class="title">Delicious menu</h2>
       <b class="text-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</b>
@@ -549,7 +552,7 @@
 
     </section>
 
-    <div class="wrapper-bg wrapper-bg--events">
+    <div class="wrapper-bg wrapper-bg--events" id="events">
       <div class="section section--text-white container">
 
         <div class="bg-line">
@@ -582,7 +585,7 @@
       </div>
     </div>
 
-    <div class="slider-image">
+    <div class="slider-image" id="galerie">
       <div class="slider-image__list">
         <img src="images/dest/slider_1.jpg" alt="фото ресторанных столиков" class="slider-image__image">
         <img src="images/dest/slider_2.jpg" alt="фото ресторанна с вывеской 'mazzo'" class="slider-image__image">
@@ -595,9 +598,9 @@
       </div>
     </div> 
 
-    <section class="section section--1fr container">
+    <section class="section section--1fr container" id="contact">
 
-      <h2 class="title">About us</h2>
+      <h2 class="title">Contact</h2>
       <b class="text-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</b>
 
       <form action="#" class="form form--contact">
